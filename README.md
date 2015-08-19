@@ -1,0 +1,6 @@
+Kindle Sync
+####
+
+License
+----
+MIT

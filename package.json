@@ -1,0 +1,21 @@
+{
+  "name": "kindle-sync",
+  "version": "0.0.0",
+  "description": "Document sync for kindle",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tajpure/kindle-sync.git"
+  },
+  "keywords": [
+    "kindle"
+  ],
+  "author": "tajpure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tajpure/kindle-sync/issues"
+  }
+}
