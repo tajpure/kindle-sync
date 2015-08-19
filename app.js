@@ -1,19 +1,15 @@
 var fs = require('fs');
 var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport(smtpTransport({
-	host: 'gmail',
+	host: 'smtp.sina.com',
 	port: 25,
 	auth: {
-		user: '',
-		pass: ''
+		user: 'kindle_sync@sina.com',
+		pass: 'sendtokindle'
 		}
 }));
 	
 var dir = '';
-var user = '';
-var pass = '';
-var host = '';
-var port = '';
 
 fs.watch(dir, function (event, filename) {
 	if (filename) {
