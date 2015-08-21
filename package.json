@@ -21,6 +21,7 @@
   "dependencies": {
     "nodemailer": "~1.4.0",
     "nodemailer-smtp-transport": "^1.0.3",
+    "scanf": "^0.6.2",
     "watch": "^0.16.0"
   }
 }
